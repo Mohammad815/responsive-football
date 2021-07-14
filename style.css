@@ -182,13 +182,24 @@ body{
 }
 /* for mobile device  */
 @media only screen and (max-width:688px) {
-    .banner, .player, .middle{
+    .banner, .player, .middle, .celebration{
         width: 100%;
         display: flex;
     }
     .top-banner, .top-player, .icon-details{
         
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .coach-part{
+        width: 100%;
+        text-align: center;
+    }
+    .top-coache, .celebration-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .celebration{
         flex-direction: column;
     }
 }
@@ -199,8 +210,16 @@ body{
         display: flex;
     }
     .top-banner, .top-player{
-        
         grid-template-columns: repeat(2, 1fr);
         flex-direction: column;
     }
+    .top-coache{
+        width: 100%;
+        display: flex;
+    }
+    .top-coache{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+
 }
