@@ -61,6 +61,7 @@ body{
 .player{
    margin-left: 180px;
    margin-right: 210px; 
+   margin-bottom: 166px;
 }
 .top-player{
     width: 1050px;
@@ -123,6 +124,29 @@ body{
 }
 .copyright p i{
     margin: 0px 5px;
+}
+/* Celebration Part of Argentina */
+.celebration{
+    width: 1050px;
+    margin-left: 180px;
+    text-align: center;
+}
+.celebration-img{
+    display: flex;
+
+}
+.img1{
+    width: 50%;
+}
+.img1 img{
+    width: 90%;
+    height: 500px;
+}
+.img2{
+    width: 50%;
+}
+.img2 img{
+    width: 90%;
 }
 /* for mobile device  */
 @media only screen and (max-width:688px) {
